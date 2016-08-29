@@ -1,0 +1,88 @@
+/*######################HEADER################################################*/
+
+header{
+  padding-bottom: 40px;
+  background-image: url("../img/rokivohome.jpg");
+  background-repeat: no-repeat;
+  background-size: 1200%;
+  padding-bottom: 30%;
+}
+
+
+
+header h1{
+  border-bottom: solid #7b7c7e 1px;
+  margin-top: 100px;
+  font-size: 40px;
+  line-height: 2em;
+  color: white;
+  margin-left: 10px;
+}
+
+header p{
+margin-top: 25px;
+color: white;
+margin-left: 10px;
+margin-bottom: 40px;
+}
+
+.link1{
+  color: #18B11C;
+  padding-bottom: 30px;
+  margin-left: 10px;
+  }
+
+.nav{
+  background-color:transparent !important;
+
+}
+
+.nav1{
+  margin-right: 10% !important;
+  color: #7b7c7e !important;
+}
+
+.nav2 a{
+  color: #7b7c7e !important;
+}
+
+section h4{
+  color: #A1A5BD;
+  margin: 40px 0px 60px 20px;
+  font-family: "Circular Std Black",sans-serif;
+}
+
+hr{
+ color: green;
+ height: 30px;
+}
+
+.para{
+  border-bottom: solid #45CA58 10px;
+}
+/*##############################END HEADER####################################*/
+
+/*################################SECTION#####################################*/
+body{
+  background-color: #F5F6F7;
+}
+
+section h6{
+  color: #7b7c7e ;
+}
+/*#################################END SECTION################################*/
+
+/*#############################################################################
+################################secondemobilesize##############################
+##############################################################################*/
+
+/*##################################HEADER######################################*/
+
+@media screen and (min-width: 880px) {
+  header{
+    background-size: 100%;
+    padding-bottom: 20%;
+    }
+}
+
+/*##############################END HEADER####################################*/
