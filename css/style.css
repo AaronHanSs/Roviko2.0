@@ -1,6 +1,6 @@
 /*######################HEADER################################################*/
 
-header{
+.index{
   padding-bottom: 40px;
   background-image: url("../img/rokivohome.jpg");
   background-repeat: no-repeat;
@@ -18,6 +18,43 @@ header h1{
   color: white;
   margin-left: 10px;
 }
+/*TITLE */
+@-webkit-keyframes typing { /*largeur du caractere a taper safari chrome opera*/
+  from { width: 0 }
+  to { width:19em }
+}
+
+@-moz-keyframes typing { /*largeur du caractere a taper mozilla firefox*/
+  from { width: 0 }
+  to { width:19em }
+}
+
+@-webkit-keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: white }
+}
+
+@-moz-keyframes blink-caret {
+  from, to { border-color: transparent }
+
+}
+
+h1 {
+
+   margin-left: 3% !important;
+  font-size:2em !important;
+  font-weight: bold;
+  white-space:nowrap !important;
+  overflow:hidden !important;
+  border-right: .1em solid lightblue !important;
+
+  -webkit-animation: typing 6s steps(8, end), /* # of steps = # of characters */
+                      blink-caret 1s step-end infinite;
+  -moz-animation: typing 6s steps(30, end), /* # of steps = # of characters */
+                      blink-caret 1s step-end infinite;
+}
+
+/*END TITLE*/
 
 header p{
 margin-top: 25px;
@@ -46,10 +83,14 @@ margin-bottom: 40px;
   color: #7b7c7e !important;
 }
 
-section h4{
+h4{
   color: #A1A5BD;
   margin: 40px 0px 60px 20px;
   font-family: "Circular Std Black",sans-serif;
+}
+
+.T1{
+  padding-top: 80px;
 }
 
 hr{
@@ -59,16 +100,43 @@ hr{
 
 .para{
   border-bottom: solid #45CA58 10px;
+  color: #887C7E;
+  margin-bottom: 40px;
 }
 /*##############################END HEADER####################################*/
 
 /*################################SECTION#####################################*/
-body{
-  background-color: #F5F6F7;
+.sec1{
+      background-color: #F5F6F7;
+      padding-top: 2%;
 }
 
 section h6{
-  color: #7b7c7e ;
+  color: #21282F;
+  font-weight: bold;
+}
+
+.sec2{
+  background-color: #fff;
+  padding-bottom: 80px;
+  }
+
+.sec3{
+  background-image: url("img/bckgrd.png");
+  background-color: #0D56C2;
+  padding-bottom: 100px;
+}
+
+.sec3 p{
+  color: #fff;
+  margin-left: 20%;
+  font-family: "Circular Std Black",sans-serif;
+}
+
+.sec3 a{
+  color: #fff;
+  margin-left: 20%;
+  margin-top: 90px;
 }
 /*#################################END SECTION################################*/
 
@@ -86,3 +154,53 @@ section h6{
 }
 
 /*##############################END HEADER####################################*/
+
+@media screen and (min-width: 900px) {
+  /*header{
+    background-size: 100%;
+    padding-bottom: 20%;
+    }*/
+    .img{
+      width: 80%;
+
+    }
+
+    .img1{
+      width: 80%;
+    }
+
+    .img2{
+      width: 91%;
+    }
+
+    h4{
+      margin-left: 20%;
+    }
+
+    .nav1{
+      margin-left: 25%;
+    }
+
+  }
+
+/*##################################footer#################################*/
+footer{
+  background-color: #21282F;
+  padding-bottom: 2%;
+}
+footer ul{
+  list-style: none;
+}
+
+footer li{
+  color: #A3ABAC;
+}
+
+footer a{
+  color: #A3ABAC;
+}
+
+footer p{
+  color :#A3ABAC;
+  margin-left: 25%;
+}
