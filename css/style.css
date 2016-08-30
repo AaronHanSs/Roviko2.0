@@ -4,7 +4,7 @@
   padding-bottom: 40px;
   background-image: url("../img/rokivohome.jpg");
   background-repeat: no-repeat;
-  background-size: 1200%;
+  /*background-size: 1200%;*/
   padding-bottom: 30%;
 }
 
@@ -94,8 +94,7 @@ h4{
 }
 
 hr{
- color: green;
- height: 30px;
+ padding: 0;
 }
 
 .para{
@@ -106,6 +105,11 @@ hr{
 /*##############################END HEADER####################################*/
 
 /*################################SECTION#####################################*/
+.index{
+  background-size: 100%;
+  padding-bottom: 50px;
+
+}
 .sec1{
       background-color: #F5F6F7;
       padding-top: 2%;
@@ -138,6 +142,8 @@ section h6{
   margin-left: 20%;
   margin-top: 90px;
 }
+
+
 /*#################################END SECTION################################*/
 
 /*#############################################################################
@@ -204,3 +210,72 @@ footer p{
   color :#A3ABAC;
   margin-left: 25%;
 }
+
+/*#############################################################################
+###############################################################################
+####################################contact pages##############################
+###############################################################################
+##############################################################################*/
+
+.index1{
+  padding-bottom: 0;
+}
+
+.SF{
+  position: relative;
+}
+
+.Cimg {
+  margin-bottom: 2px;
+  z-index: -1;
+  filter: brightness(50%);
+       -webkit-filter: brightness(50%);
+       -moz-filter: brightness(50%);
+       -o-filter: brightness(50%);
+       -ms-filter: brightness(50%);
+}
+
+.Cimg1{
+  z-index: -1;
+  filter: brightness(50%);
+       -webkit-filter: brightness(50%);
+       -moz-filter: brightness(50%);
+       -o-filter: brightness(50%);
+       -ms-filter: brightness(50%);
+}
+
+.CT1{
+  position: absolute;
+  top: 40%;
+  left: 45%;
+  font-size: 60px;
+  color: #fff;
+  border-bottom: solid #696771 1px;
+  }
+
+  .CP1{
+    position: absolute;
+    top: 55%;
+    left: 45%;
+    color: #696771;
+  }
+
+  .Turin{
+    position: relative;
+  }
+
+  .CT2{
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    font-size: 60px;
+    color: #fff;
+    border-bottom: solid #696771 1px;
+    }
+
+    .CP2{
+      position: absolute;
+      top: 55%;
+      left: 45%;
+      color: #696771;
+    }
